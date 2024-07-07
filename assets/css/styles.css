@@ -1,0 +1,93 @@
+.completa {
+    text-decoration: line-through;
+}
+
+
+/* Estilos generales */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f4f4f9;
+}
+
+/* Estilos para el input de texto y el botón */
+input.nueva-tarea {
+    width: calc(100% - 120px);
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+button.recibir-tarea-nueva {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    background-color: #4CAF50;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+button.recibir-tarea-nueva:hover {
+    background-color: #45a049;
+}
+
+/* Estilos para las tablas */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    box-shadow: 0 2px 3px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilos para las celdas de las tablas */
+th, td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+/* Estilos para el encabezado de las tablas */
+th {
+    color: white;
+    text-transform: uppercase;
+}
+
+/* Estilos específicos para las tablas */
+.lista-tareas th{
+    background-color: #2196F3;
+}
+
+.lista-tareas td, .resumen-tareas td {
+    background-color: #e3f2fd;
+}
+
+/* Estilos para los botones de completar y eliminar */
+button.completar, button.eliminar {
+    padding: 5px 10px;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    font-size: 14px;
+    cursor: pointer;
+    margin-right: 5px;
+}
+
+button.completar {
+    background-color: #4CAF50;
+}
+
+button.completar:hover {
+    background-color: #45a049;
+}
+
+button.eliminar {
+    background-color: #f44336;
+}
+
+button.eliminar:hover {
+    background-color: #b02725;
+}
